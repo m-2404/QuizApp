@@ -10,9 +10,9 @@ import javax.servlet.http.*;
 
 @WebServlet("/TestServlet")
 public class TestServlet extends HttpServlet {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/quiz_app";
-    private static final String DB_USER = "root";
-    private static final String DB_PASS = "1234";
+    private static final String DB_URL = "jdbc:mysql://localhost:xxxx/quiz_app";
+    private static final String DB_USER = "db_user";
+    private static final String DB_PASS = "db_password";
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
