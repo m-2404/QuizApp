@@ -49,7 +49,7 @@ Update DB credentials in your code
 ini
 Copy
 Edit
-DB_URL = jdbc:mysql://localhost:3306/quiz_app
+DB_URL = jdbc:mysql://localhost:xxxx/quiz_app
 DB_USER = admin
 DB_PASS = *password*
 Run on Tomcat Server
