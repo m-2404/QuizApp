@@ -26,9 +26,7 @@ QuizApp1/
 ├── .settings/, .classpath # Eclipse config files
 └── WEB-INF/ # Web app config (web.xml, lib)
 
-bash
-Copy
-Edit
+
 
 ## ⚙️ Setup Instructions
 1. **Clone the repository**
@@ -46,11 +44,9 @@ Import tables (users, tests, questions, etc.)
 
 Update DB credentials in your code
 
-ini
-Copy
-Edit
+
 DB_URL = jdbc:mysql://localhost:xxxx/quiz_app
-DB_USER = admin
+DB_USER = *your_user*
 DB_PASS = *password*
 Run on Tomcat Server
 
@@ -71,9 +67,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 📜 License
 This project is for educational purposes.
 
-yaml
-Copy
-Edit
 
 ---
 
