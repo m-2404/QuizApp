@@ -5,9 +5,9 @@ import java.sql.SQLException;
     public class MySqlConnect {
         public static void main(String[] args) {
             // Replace values below with your actual MySQL info
-            String url = "jdbc:mysql://localhost:3306/quiz_app";
-            String username = "root";
-            String password = "1234";
+            String url = "jdbc:mysql://localhost:xxxx/quiz_app";
+            String username = "db_user";
+            String password = "db_password";
 
             try {
                 Connection conn = DriverManager.getConnection(url, username, password);
