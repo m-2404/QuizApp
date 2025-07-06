@@ -50,15 +50,15 @@ ini
 Copy
 Edit
 DB_URL = jdbc:mysql://localhost:3306/quiz_app
-DB_USER = root
-DB_PASS = 1234
+DB_USER = admin
+DB_PASS = *password*
 Run on Tomcat Server
 
 Add project to server
 
 Start the server
 
-Access at: http://localhost:8080/QuizApp1
+Access at: http://localhost:XXXX/QuizApp1
 
 📌 Notes
 Make sure the MySQL server is running.
