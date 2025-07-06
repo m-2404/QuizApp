@@ -94,7 +94,7 @@ String subcategory = request.getParameter("subcategory");
   ResultSet rs = null;
   try {
       Class.forName("com.mysql.cj.jdbc.Driver");
-      conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/quiz_app", "root", "1234");
+      conn = DriverManager.getConnection("jdbc:mysql://localhost:xxxx/quiz_app", "db_user", "db_password");
       
       String sql = "SELECT * FROM tests WHERE category = ?";
       if (subcategory != null) {
