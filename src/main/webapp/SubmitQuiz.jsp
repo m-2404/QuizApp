@@ -14,7 +14,7 @@ int score = 0;
 int total = 0;
 try {
     Class.forName("com.mysql.cj.jdbc.Driver");
-    conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/quiz_app", "root", "1234");
+    conn = DriverManager.getConnection("jdbc:mysql://localhost:xxxx/quiz_app", "db_user", "db_password");
 
     // Fetch user id
     ps = conn.prepareStatement("SELECT user_id FROM users WHERE username = ?");
