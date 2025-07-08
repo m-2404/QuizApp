@@ -122,7 +122,7 @@
         </div>
         <div style="text-align:center; margin-top: 20px;">
             <a href="Welcome.jsp">🏠 Back to Home</a> |
-            <a href="LogoutServlet">🚪 Logout</a>
+            <a href="Logout.jsp">🚪 Logout</a>
         </div>
     </div>
 </body>
