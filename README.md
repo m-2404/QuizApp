@@ -67,14 +67,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 📜 License
 This project is for educational purposes.
 
-
----
-
-👉 **Next step:**  
-✅ You can save this content as `README.md` in your project root.  
-
-If you want:
-- I can help you generate a **.gitignore**  
-- Or create the **SQL dump** for your DB schema  
-
-Let me know! 🚀
