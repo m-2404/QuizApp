@@ -35,7 +35,7 @@ QuizApp1/
 Import into Eclipse
 File → Import → Existing Projects into Workspace → Select your project folder.
 
-Setup MySQL database
+Setup database
 
 Create database quiz_app
 
@@ -56,14 +56,4 @@ Start the server
 
 Access at: http://localhost:XXXX/QuizApp1
 
-📌 Notes
-Make sure the MySQL server is running.
-
-A .gitignore file is recommended to avoid committing build and IDE files.
-
-🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
-
-📜 License
-This project is for educational purposes.
 
